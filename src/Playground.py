@@ -1,5 +1,14 @@
 import pandas
+import numpy
 
-test_df = pandas.DataFrame({"A": [1, 2, 3], "B": [4, 5, 6]})
+#variables
+test_df = pandas.DataFrame(
+    {"Column1": [1, 2, 3], "Column2": ["A", "B", "C"]}
+)
 
-print(test_df)
+#functions
+def pow(int_base, int_exponent):
+    return int_base ** int_exponent
+
+#exectution
+print(pow(2, 3))
